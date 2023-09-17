@@ -15,4 +15,4 @@ The main outputs are unregulated and it is reccomended to use a suitable power f
 Auxiliary outputs 3 and 4 are provided for small-signal curcuits. Output 6 is provided for class-D amplifiers that require a gate drive supply referenced to the negative supply rail. 
 Isolated and non-isolated inputs are provided to shut down the converter on J10 and J11, respectively. Oveheating protection is provided by a thermostat mounted on the heatsink.
 
-This repository is released under CERN OHL 2.0-S
+This repository is released under CERN-OHL-S 2.0
