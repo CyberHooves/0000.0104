@@ -1,0 +1,15 @@
+(version 1)
+(rule "intermv1"
+	(condition "A.NetClass == 'MV1' && B.NetClass == 'MV1'" )
+	(constraint clearance (min 0.5mm)))
+
+(rule "interht1"
+	(condition "A.NetClass == 'HT1' && B.NetClass == 'HT1'" )
+	(constraint clearance (min 0.5mm)))
+
+(rule "ground_isolation"
+	(condition "A.NetName == 'GND' && B.NetName == 'GND1' " )
+	(constraint clearance (min 8mm)))
+(rule "ground_isolation2"
+	(condition "A.NetName == 'GND' && B.NetClass == 'HT' " )
+	(constraint clearance (min 8mm)))

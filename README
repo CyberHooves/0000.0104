@@ -1,0 +1,18 @@
+HAOS REDRO PN: 0000.0104
+========================
+
+This is a 1.2kW SMPS for audio amplifiers designed to fit within a 1U case.
+
+Input: 400V DC
+Output 1: +100V, 6A
+Output 2: -100V, 6A
+Output 3: +15V, 500mA
+Output 4: -15V, 500mA
+Output 5: +12V, 1A
+Output 6: +12V, 500mA, referenced to Output 2.
+
+The main outputs are unregulated and it is reccomended to use a suitable power factor correction circuit in applications where line regulation is necessary.
+Auxiliary outputs 3 and 4 are provided for small-signal curcuits. Output 6 is provided for class-D amplifiers that require a gate drive supply referenced to the negative supply rail. 
+Isolated and non-isolated inputs are provided to shut down the converter on J10 and J11, respectively. Oveheating protection is provided by a thermostat mounted on the heatsink.
+
+This repository is released under CERN OHL 2.0-S
